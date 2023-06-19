@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Heading -->
+
+<head>
+  <link rel="stylesheet" href="main.css">
+  <!-- Web icon-->
+  <link rel="shortcut icon" type="x icon" href="image/logo2.png">
+  <meta charset="UTF-8">
+  <meta name="description"
+    content="craigslist cung cấp rao vặt và diễn đàn địa phương cho công việc, nhà ở, để bán, dịch vụ, cộng đồng địa phương và các sự kiện">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>craigslist: vietnam công việc, căn hộ, để bán, dịch vụ, cộng đồng và sự kiện</title>
+</head>
+
+<body>
+  <div class="left_top_bar">
+    <a href="https://www.craigslist.org/about/sites?lang=vi">craigslist<sup>®</sup></a>
+    <a href="">about us</a>
+    <a href="">private policy</a>
+    <a href="">term of use</a>
+    <a href="">system status</a>
+    <div class="icon_1">
+      <img src="image/globe2.png" alt="language">
+    </div>
+    <div class="icon_2"><p>Create a post</p></div>
+    <div class="icon_3"><p>Manage your account</p></div>
+  </div>
+  <div class="header">
+    <h1>Viet Nam</h1>
+  </div>
+  <div class="search-bar">
+    <input type="text" placeholder="What are you looking for?" onkeyup="filterNations(event)">
+    <div class="dropdown-menu" id="nationDropdown"></div>
+  </div>
+  <!--context-->
+  <!--taskbar for navigation-->
+  <div class="frame_1">
+    <div class="navbar">
+      <div class="dropdown">
+        <a href="craigslist.html" class="dropbtn">Community
+        </a>
+        <div class="dropdown-content">
+          <a href="craigslist.html">activities</a>
+          <a href="craigslist.html">artists</a>
+          <a href="craigslist.html">childcare</a>
+          <a href="craigslist.html">classes</a>
+          <a href="craigslist.html">events</a>
+          <a href="craigslist.html">general</a>
+          <a href="craigslist.html">groups</a>
+          <a href="craigslist.html">local news</a>
+          <a href="craigslist.html">lost+found</a>
+          <a href="craigslist.html">missed connections</a>
+          <a href="craigslist.html">musicians</a>
+          <a href="craigslist.html">pets</a>
+          <a href="craigslist.html">politics</a>
+          <a href="craigslist.html">rants</a>
+          <a href="craigslist.html">rideshare</a>
+          <a href="craigslist.html">volunteers</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <a href="craigslist.html" class="dropbtn">Housing</a>
+        <div class="dropdown-content">
+          <a href="craigslist.html">apts / housing</a>
+          <a href="craigslist.html">housing swap</a>
+          <a href="craigslist.html">housing wanted</a>
+          <a href="craigslist.html">office / commercial</a>
+          <a href="craigslist.html">parking / storage</a>
+          <a href="craigslist.html">real estate for sale</a>
+          <a href="craigslist.html">rooms / shared</a>
+          <a href="craigslist.html">rooms wanted</a>
+          <a href="craigslist.html">sublets / temporary</a>
+          <a href="craigslist.html">vacation rentals</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <a href="craigslist.html" class="dropbtn">Jobs</a>
+        <div class="dropdown-content">
+          <a href="craigslist.html">accounting+finance</a>
+          <a href="craigslist.html">admin/office</a>
+          <a href="craigslist.html">arch/engineering</a>
+          <a href="craigslist.html">art/media/design</a>
+          <a href="craigslist.html">biotech/science</a>
+          <a href="craigslist.html">business/mgmt</a>
+          <a href="craigslist.html">customer service</a>
+          <a href="craigslist.html">education</a>
+          <a href="craigslist.html">etc /misc</a>
+          <a href="craigslist.html">food/bev/hosp</a>
+          <a href="craigslist.html">general labor</a>
+          <a href="craigslist.html">government</a>
+          <a href="craigslist.html">human resources</a>
+          <a href="craigslist.html">legal/paralegal</a>
+          <a href="craigslist.html">manufacturing</a>
+          <a href="craigslist.html">marketing/pr/ad</a>
+          <a href="craigslist.html">medical/health</a>
+          <a href="craigslist.html">nonprofit sector</a>
+          <a href="craigslist.html">real estate</a>
+          <a href="craigslist.html">retail/wholesale</a>
+          <a href="craigslist.html">sales/biz dev</a>
+          <a href="craigslist.html">salon/spa/fitness</a>
+          <a href="craigslist.html">security</a>
+          <a href="craigslist.html">skilled trade/craft</a>
+          <a href="craigslist.html">software/qa/dba</a>
+          <a href="craigslist.html">systems/network</a>
+          <a href="craigslist.html">technical support</a>
+          <a href="craigslist.html">transport</a>
+          <a href="craigslist.html">tv/film/video</a>
+          <a href="craigslist.html">web/info design</a>
+          <a href="craigslist.html">writing/editing</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <a href="craigslist.html" class="dropbtn">Services</a>
+        <div class="dropdown-content">
+          <a href="craigslist.html">automotive</a>
+          <a href="craigslist.html">beauty</a>
+          <a href="craigslist.html">cell/mobile</a>
+          <a href="craigslist.html">computer</a>
+          <a href="craigslist.html">creative</a>
+          <a href="craigslist.html">cycle</a>
+          <a href="craigslist.html">event</a>
+          <a href="craigslist.html">farm+garden</a>
+          <a href="craigslist.html">financial</a>
+          <a href="craigslist.html">health/well</a>
+          <a href="craigslist.html">household</a>
+          <a href="craigslist.html">labor/move</a>
+          <a href="craigslist.html">legal</a>
+          <a href="craigslist.html">lessons</a>
+          <a href="craigslist.html">marine</a>
+          <a href="craigslist.html">pet</a>
+          <a href="craigslist.html">real estate</a>
+          <a href="craigslist.html">skilled trade</a>
+          <a href="craigslist.html">sm biz ads</a>
+          <a href="craigslist.html">travel/vac</a>
+          <a href="craigslist.html">write/ed/tran</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <a href="craigslist.html" class="dropbtn">For sale
+        </a>
+        <div class="dropdown-content">
+          <a href="craigslist.html">antiques</a>
+          <a href="craigslist.html">appliances</a>
+          <a href="craigslist.html">arts+crafts</a>
+          <a href="craigslist.html">atv/utv/sno</a>
+          <a href="craigslist.html">auto parts</a>
+          <a href="craigslist.html">aviation</a>
+          <a href="craigslist.html">baby+kid</a>
+          <a href="craigslist.html">barter</a>
+          <a href="craigslist.html">beauty+hlth</a>
+          <a href="craigslist.html">bike parts</a>
+          <a href="craigslist.html">bikes</a>
+          <a href="craigslist.html">boat parts</a>
+          <a href="craigslist.html">boats</a>
+          <a href="craigslist.html">books</a>
+          <a href="craigslist.html">business</a>
+          <a href="craigslist.html">cars+trucks</a>
+          <a href="craigslist.html">cds/dvd/vhs</a>
+          <a href="craigslist.html">cell phones</a>
+          <a href="craigslist.html">clothes+acc</a>
+          <a href="craigslist.html">collectibles</a>
+          <a href="craigslist.html">computer parts</a>
+          <a href="craigslist.html">computers</a>
+          <a href="craigslist.html">electronics</a>
+          <a href="craigslist.html">farm+garden</a>
+          <a href="craigslist.html">free</a>
+          <a href="craigslist.html">furniture</a>
+          <a href="craigslist.html">garage sale</a>
+          <a href="craigslist.html">general</a>
+          <a href="craigslist.html">heavy equip</a>
+          <a href="craigslist.html">household</a>
+          <a href="craigslist.html">jewelry</a>
+          <a href="craigslist.html">materials</a>
+          <a href="craigslist.html">motorcycle parts</a>
+          <a href="craigslist.html">motorcycles</a>
+          <a href="craigslist.html">music instr</a>
+          <a href="craigslist.html">photo+video</a>
+          <a href="craigslist.html">rvs+camp</a>
+          <a href="craigslist.html">sporting</a>
+          <a href="craigslist.html">tickets</a>
+          <a href="craigslist.html">tools</a>
+          <a href="craigslist.html">toys+games</a>
+          <a href="craigslist.html">trailers</a>
+          <a href="craigslist.html">video gaming</a>
+          <a href="craigslist.html">wanted</a>
+          <a href="craigslist.html">wheels+tires</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <a href="craigslist.html" class="dropbtn">Discussion forums
+        </a>
+        <div class="dropdown-content">
+          <a href="craigslist.html">apple</a>
+          <a href="craigslist.html">arts</a>
+          <a href="craigslist.html">atheist</a>
+          <a href="craigslist.html">autos</a>
+          <a href="craigslist.html">beauty</a>
+          <a href="craigslist.html">bikes</a>
+          <a href="craigslist.html">celebs</a>
+          <a href="craigslist.html">comp</a>
+          <a href="craigslist.html">cosmos</a>
+          <a href="craigslist.html">diet</a>
+          <a href="craigslist.html">divorce</a>
+          <a href="craigslist.html">dying</a>
+          <a href="craigslist.html">eco</a>
+          <a href="craigslist.html">feedbk</a>
+          <a href="craigslist.html">film</a>
+          <a href="craigslist.html">fixit</a>
+          <a href="craigslist.html">food</a>
+          <a href="craigslist.html">frugal</a>
+          <a href="craigslist.html">gaming</a>
+          <a href="craigslist.html">garden</a>
+          <a href="craigslist.html">haiku</a>
+          <a href="craigslist.html">help</a>
+          <a href="craigslist.html">history</a>
+          <a href="craigslist.html">housing</a>
+          <a href="craigslist.html">jobs</a>
+          <a href="craigslist.html">jokes</a>
+          <a href="craigslist.html">legal</a>
+          <a href="craigslist.html">manners</a>
+          <a href="craigslist.html">marriage</a>
+          <a href="craigslist.html">money</a>
+          <a href="craigslist.html">music</a>
+          <a href="craigslist.html">open</a>
+          <a href="craigslist.html">parent</a>
+          <a href="craigslist.html">pets</a>
+          <a href="craigslist.html">philos</a>
+          <a href="craigslist.html">photo</a>
+          <a href="craigslist.html">politics</a>
+          <a href="craigslist.html">psych</a>
+          <a href="craigslist.html">recover</a>
+          <a href="craigslist.html">religion</a>
+          <a href="craigslist.html">rofo</a>
+          <a href="craigslist.html">science</a>
+          <a href="craigslist.html">spirit</a>
+          <a href="craigslist.html">sports</a>
+          <a href="craigslist.html">super</a>
+          <a href="craigslist.html">tax</a>
+          <a href="craigslist.html">travel</a>
+          <a href="craigslist.html">tv</a>
+          <a href="craigslist.html">vegan</a>
+          <a href="craigslist.html">words</a>
+          <a href="craigslist.html">writing</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <a href="craigslist.html" class="btn">Gigs
+        </a>
+      </div>
+      <div class="dropdown">
+        <a href="craigslist.html" class="btn">Resumes
+        </a>       
+      </div>
+    </div>
+  </div>
+  <!--ads context-->
+<div class="ads">
+  <div class="ads_frame"><h1>This is for ads!</h1></div>
+  <div class="ads_frame"><h1>This is for ads!</h1></div>
+  <div class="ads_frame"><h1>This is for ads!</h1></div>
+  <div class="ads_frame"><h1>This is for ads!</h1></div>
+  <div class="ads_frame"><h1>This is for ads!</h1></div>
+  <div class="ads_frame"><h1>This is for ads!</h1></div>
+  <div class="ads_frame"><h1>This is for ads!</h1></div>
+  <div class="ads_frame"><h1>This is for ads!</h1></div>
+  <div class="ads_frame"><h1>This is for ads!</h1></div>
+  <div class="ads_frame"><h1>This is for ads!</h1></div>
+  <div class="ads_frame"><h1>This is for ads!</h1></div>
+  <div class="ads_frame"><h1>This is for ads!</h1></div>
+</div>
+  <script src="index.js"></script>
+</body> 
